@@ -22,7 +22,7 @@ REFF_FILE = './reff.txt'
 WALLET_URL = 'https://wallet.shadenetwork.io'
 
 # Captcha solver configuration
-CAPTCHA_API_KEY = 'QtU4iNokqmOXpOfzGUwVsxwOdJp4ZX6d'
+CAPTCHA_API_KEY = 'SCTG APIKEY'
 TURNSTILE_SITEKEY = '0x4AAAAAACN1moBrJQ-mAzdh'
 TURNSTILE_PAGEURL = 'https://wallet.shadenetwork.io'
 
