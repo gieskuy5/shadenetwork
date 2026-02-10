@@ -22,7 +22,7 @@ REFF_FILE = './reff.txt'
 WALLET_URL = 'https://wallet.shadenetwork.io'
 
 # Captcha solver configuration
-CAPTCHA_API_KEY = 'SCTG APIKEY'
+CAPTCHA_API_KEY = 'QtU4iNokqmOXpOfzGUwVsxwOdJp4ZX6d'
 TURNSTILE_SITEKEY = '0x4AAAAAACN1moBrJQ-mAzdh'
 TURNSTILE_PAGEURL = 'https://wallet.shadenetwork.io'
 
@@ -765,12 +765,12 @@ def check_quest_available(token, quest_id, fingerprint, proxies=None):
 def display_banner():
     os.system('cls' if os.name == 'nt' else 'clear')
     print(f"{Fore.YELLOW} ___ ___  ___    _____  __  _ {Style.RESET_ALL}")
-    print(f"{Fore.YELLOW}|   |   ||   \  |     ||  |/ ]{Style.RESET_ALL}")
-    print(f"{Fore.YELLOW}| _   _ ||    \ |   __||  ' / {Style.RESET_ALL}")
-    print(f"{Fore.YELLOW}|  \_/  ||  D  ||  |_  |    \ {Style.RESET_ALL}")
+    print(f"{Fore.YELLOW}|   |   ||   \\  |     ||  |/ ]{Style.RESET_ALL}")
+    print(f"{Fore.YELLOW}| _   _ ||    \\ |   __||  ' / {Style.RESET_ALL}")
+    print(f"{Fore.YELLOW}|  \\_/  ||  D  ||  |_  |    \\ {Style.RESET_ALL}")
     print(f"{Fore.YELLOW}|   |   ||     ||   _] |     |{Style.RESET_ALL}")
     print(f"{Fore.YELLOW}|   |   ||     ||  |   |  .  |{Style.RESET_ALL}")
-    print(f"{Fore.YELLOW}|___|___||_____||__|   |__|\_| {Fore.CYAN}t.me/MDFKOfficial{Style.RESET_ALL}")
+    print(f"{Fore.YELLOW}|___|___||_____||__|   |__|\\_| {Fore.CYAN}t.me/MDFKOfficial{Style.RESET_ALL}")
     print()
     print(f"{Fore.GREEN}SHADENETWORK{Style.RESET_ALL}")
     print()
@@ -782,7 +782,7 @@ def display_menu():
     print(f"{Fore.WHITE}🔑 Accounts: {len(accounts)} | 🌐 Proxies: {len(proxies)}{Style.RESET_ALL}")
     print()
     print(f"{Fore.WHITE} [1] Auto Register{Style.RESET_ALL}")
-    print(f"{Fore.MAGENTA} [2] Auto All Missions (Checkin + Onchain){Style.RESET_ALL}")
+    print(f"{Fore.WHITE} [2] Auto All Missions {Style.RESET_ALL}")
     print(f"{Fore.WHITE} [3] View Account Stats{Style.RESET_ALL}")
     print(f"{Fore.RED} [0] Exit{Style.RESET_ALL}")
     print()
